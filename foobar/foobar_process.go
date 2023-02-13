@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/a-peyrard/addon-manager/process"
+)
 
 type Process struct{}
 
@@ -10,6 +13,6 @@ func (p *Process) Run() (err error) {
 	return
 }
 
-func NewProcess() *Process {
+func NewProcess() process.Process {
 	return &Process{}
 }
