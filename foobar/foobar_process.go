@@ -8,7 +8,7 @@ import (
 type Process struct{}
 
 func (p *Process) Run() (err error) {
-	fmt.Printf("\n== foooooooobaaaaaaaar v1.0.1! ==\n\n")
+	fmt.Printf("\n== foooooooobaaaaaaaar v2.0.0! ==\n\n")
 
 	return
 }
